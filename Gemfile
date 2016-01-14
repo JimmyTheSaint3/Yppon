@@ -1,5 +1,6 @@
 source 'https://rubygems.org'
 
+gem 'pry', '~> 0.10.3'
 gem 'paperclip', '~> 4.3', '>= 4.3.2'
 gem 'devise', '~> 3.5', '>= 3.5.3'
 gem 'simple_form', '~> 3.2', '>= 3.2.1'
