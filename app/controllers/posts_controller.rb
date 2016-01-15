@@ -46,7 +46,7 @@ class PostsController < ApplicationController
 	end
 
 	def downvote
-		@post.downvote_by currnet_user
+		@post.downvote_by current_user
 		redirect_to :back  
 	end
 
